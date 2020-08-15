@@ -261,6 +261,9 @@ button:hover {
 .back-button {
   color: #14213d;
 }
+.details {
+  padding-top: 5%;
+}
 .details-title {
   align-self: center;
   grid-column: 1/span 2;

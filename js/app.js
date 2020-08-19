@@ -27,8 +27,6 @@ const displayproducto = (producto) => {
         const conteo = document.getElementById('conteo-productos')
         const contator = localStorage.getItem('conteo')
         const total = JSON.parse(localStorage.getItem('total'))
-        
-        console.log(typeof(total));
         if(total>0){
             icon.innerHTML = `<a><i class="material-icons md-36" style="color: orange">add_shopping_cart</i></a>`
             conteo.innerHTML = `<p>${contator}</p>`
@@ -96,7 +94,6 @@ const displayId = (productId) =>{
     const icon = document.getElementById('cart-icon')
     const sumatoria = document.getElementById('sumatoria-productos')
     const conteo = document.getElementById('conteo-productos')
-    console.log((total))
     createCart(productId, array)
     if(total==null && conteoProductos==null){
         conteoProductos = 1

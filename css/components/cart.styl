@@ -1,0 +1,108 @@
+
+
+.cart
+    list-style: none
+    margin: 0
+    min-width 100%
+
+.container
+    display: grid
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    justify-items: center
+    grid-gap: 50px
+    list-style: none
+
+.list-cart
+    display: grid;
+    border: solid 2px Color-oscuro2
+    grid-template-columns: 1fr 1fr
+    grid-template-rows: repeat(5, 1fr)
+    margin: 5%
+    padding: 10px
+    font-size: 1em
+
+.list-cart-title
+    grid-column: 2 / span 1
+
+.list-cart-image
+    grid-row: 1 / span 3
+    align-self: center
+    justify-self: center
+
+.list-cart-description
+    grid-row: 2 / span 2
+    align-self: center
+
+.list-cart-price
+    grid-column: 1 / span 1
+    grid-row: 4 / span 1
+    font-weight: 700
+
+.list-cart-amount
+    grid-column: 2 / span 1
+    grid-row: 4 / span 1
+    font-weight: 700
+
+
+.more
+    grid-column: 1 / span 1
+    grid-row: 5 / span 1
+    justify-self: center
+    min-width: 90%
+    height: 45px
+.menos
+    grid-column: 2 / span 1
+    grid-row: 5 / span 1
+    justify-self: center
+    min-width: 90%
+    height: 45px
+
+.holi
+    font-size: medium
+    display: grid;
+    justify-items: end
+    align-items: center
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    margin: 5%
+    padding: 10px
+    max-height: 250px
+    position: sticky
+    top: 0
+
+.back-button
+    color: Color-oscuro2
+
+.details
+    padding: 5% 0
+
+.details-title
+    align-self: center
+    grid-column: 1 / span 2
+    grid-row: 1 / span 1
+    justify-self: center
+.details-total
+    grid-column: 1 / span 1
+    grid-row: 2 / span 1
+.details-total-number
+    grid-column: 2 / span 1
+    grid-row: 2 / span 1
+    justify-self: center
+.details-amount
+    grid-column: 1 / span 1
+    grid-row: 3 / span 1
+.details-amount-number
+    grid-column: 2 / span 1
+    grid-row: 3 / span 1
+    justify-self: center
+.delete-car
+    grid-column: 1 / span 2
+    grid-row: 4 / span 1
+    justify-self: center
+    min-width: 100%
+
+#sad-icon
+    display: grid
+    justify-items: center
+    font-size: 48px
+    margin-top: 15%

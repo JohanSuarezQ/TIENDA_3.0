@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/styles.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title CART
+    body
+        header.Header#header
+            img.header-logo(src='./assets/logo.png', alt="Logo")
+            h1.hidden#dsaldksa Garbage Shop
+            button
+                a(href="index.html").back-button BACK
+        main.Main
+            h2.main__sub Your Cart
+            section.container#container
+                #cart.cart 
+                #details.details
+        footer#fto
+            p.autor.hidden Diseñado por JohánSQ
+            ul.rrss
+                li.github
+                    a(href="https://github.com/JohanSuarezQ/", target="_blank")
+                        img(src="./assets/github.svg", alt="link-github")
+                li.linkedin
+                    a(href="https://www.linkedin.com/in/johansq/", target="_blank")
+                        img(src="./assets/linkedin.svg", alt="link-linkedin")
+                li.instagram
+                    a(href="https://www.instagram.com/johansuarezq/", target="_blank")
+                        img(src="./assets/instagram.svg", alt="link-instagram")
+
+    script(src="./js/cart.js")

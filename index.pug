@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/styles.css")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title GB SHOP
+    body
+        header.Header-principal#header
+            img.header-logo(src="./assets/logo.png", alt="Logo")
+            h1.hidden#hola Garbage Shop
+            ul.header__nav-menu
+                a(href="cart.html")
+                    i.material-icons.md-36#cart-icon add_shopping_cart
+                li.hidden products
+                    p#conteo-productos 0
+                li total 
+                    p#sumatoria-productos 0
+        main.Main
+            h2.main__sub Scrap available
+            ul#store.store
+        footer
+            p.autor.hidden Diseñado por JohánSQ
+            ul.rrss
+                li.github
+                    a(href="https://github.com/JohanSuarezQ/", target="_blank")
+                        img(src="./assets/github.svg", alt="link-github")
+                li.linkedin
+                    a(href="https://www.linkedin.com/in/johansq/", target="_blank")
+                        img(src="./assets/linkedin.svg", alt="link-linkedin")
+                li.instagram
+                    a(href="https://www.instagram.com/johansuarezq/", target="_blank")
+                        img(src="./assets/instagram.svg", alt="link-instagram")
+    script(src="./js/app.js")
